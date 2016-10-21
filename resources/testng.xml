@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Tests" verbose="5" data-provider-thread-count="1">
+    <test name="Test1">
+        <parameter name="firstname" value="Asanka"/>
+        <parameter name="lastname" value="Vithanage"/>
+        <parameter name="username" value="gvasanka"/>
+        <parameter name="password" value="Asanka1234"/>
+        <parameter name="repassword" value="Asanka1234"/>
+        <classes>
+            <class name="org.asanka.test.EmployeerCreationTestCase"/>
+        </classes>
+    </test>
+</suite>
